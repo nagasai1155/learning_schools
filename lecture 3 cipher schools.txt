@@ -1,0 +1,24 @@
+public class PrimitiveDT {
+    public static void main(String args[]){
+        int x=5; //integer data type
+        int y =7;
+        System.out.println("x is:" +x);
+        System.out.println("y is:" +y);
+
+        byte b=10;
+        System.out.println("b is :"+b);
+
+        // byte b2=129;       here the max range of the byte is -128 ,0,127 (129 is more than that)
+        //System.out.println("b2 is :" + b2);
+
+
+        int i =b;  //implicit type casting done automatically
+        System.out.println("i is :"+i);
+
+        byte b3=(byte)129;
+        System.out.println("b3 is :"+ b3);//explict type casting done by user by using (data type)
+
+
+
+    }
+}
